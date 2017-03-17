@@ -20,3 +20,8 @@ source ~/.bash_styles
 
 export PS1="\u:\[\033[0;0m\]\[\033[1;32m\]\w\[\033[0;0m\] \\$ "
 source $HOME/.bash_kettle_helpers
+export workspace_client=/Users/zef.delgadillo/opower/clients
+
+source /Users/zef.delgadillo/opower/techops.bash/techops.bash
+export APP_TIER=local
+export APP_TIER=local

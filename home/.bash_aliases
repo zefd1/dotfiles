@@ -5,7 +5,6 @@ alias ls="ls -G"
 alias ll='ls -l'
 alias clr='clear'
 alias df='df -kTh'
-alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 alias grep='grep --color=auto --exclude-dir="\.git" --exclude-dir="\.svn"'
