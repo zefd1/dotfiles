@@ -14,13 +14,13 @@ alias t1='tail -n1'
 alias h1='head -n1'
 alias vi='vim'
 alias g='hub_or_git'
-__git_complete g __git_main
 alias sbp="source_if_exists $HOME/.bash_profile"
 alias hr="cd $HSR"
 alias rakeit="rake db:drop && rake db:create && rake db:migrate && rake db:seed"
 alias beeline="beeline --color=true"
 alias tree="tree -I sandcube"
 alias brew_cleaner="brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup"
+alias ws='cd ~/workspace'
 
 alias hideme='history -d $((HISTCMD-1)) &&'
 alias git=hub
