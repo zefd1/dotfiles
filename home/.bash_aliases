@@ -21,6 +21,7 @@ alias beeline="beeline --color=true"
 alias tree="tree -I sandcube"
 alias brew_cleaner="brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup"
 alias ws='cd ~/workspace'
+alias d='docker'
 
 alias hideme='history -d $((HISTCMD-1)) &&'
 alias git=hub
@@ -34,4 +35,3 @@ then
   alias mvnk="colourify -c $HOME/.grc/mvn.config mvn"
   alias kat="colourify -c $HOME/.grc/mvn.config"
 fi
-

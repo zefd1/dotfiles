@@ -12,3 +12,9 @@ source ~/.bashrc
 source ~/.bash_func
 source ~/.bash_aliases
 source ~/.bash_styles
+source ~/workspace/google-cloud-sdk/completion.bash.inc
+source ~/workspace/google-cloud-sdk/path.bash.inc
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+# For now, just use personal AWS
+set-aws personal

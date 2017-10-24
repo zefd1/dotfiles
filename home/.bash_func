@@ -476,3 +476,8 @@ function battery_health() {
     for i in `seq 1 $(echo "$num_hearts-$charged_slots" | bc)`; do echo -n "$HEART"; done
   fi
 }
+
+# AWS Helpers
+set-aws() {
+  export AWS_PROFILE=$1
+}
