@@ -1,13 +1,17 @@
 ## Rough instructions to quickly bootstrap dotfiles on a fresh Mac:
-1. Install [homesick](https://github.com/technicalpickles/homesick).
+1. Create a `workspace` directory
+```
+mkdir ~/workspace
+```
+2. Install [homesick](https://github.com/technicalpickles/homesick).
 ```
 gem install homesick
 ```
-2. Clone this repo (homesick calls it a castle).
+3. Clone this repo (homesick calls it a castle).
 ```
 homesick clone zefd1/dotfiles.git
 ```
-3. Link the castle to the home directory.
+4. Link the castle to the home directory.
 ```
 homesick link dotfiles
 ```
