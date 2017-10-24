@@ -10,6 +10,7 @@ call vundle#begin()
   Plugin 'vim-syntastic/syntastic'
   Plugin 'tpope/vim-surround'
   Plugin 'keith/rspec.vim'
+  Plugin 'ekalinin/Dockerfile.vim'
 call vundle#end()
 
 "Styling stuff
