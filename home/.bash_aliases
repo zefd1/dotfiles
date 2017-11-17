@@ -22,6 +22,7 @@ alias tree="tree -I sandcube"
 alias brew_cleaner="brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup"
 alias ws='cd ~/workspace'
 alias d='docker'
+alias curl='curl --silent'
 
 alias hideme='history -d $((HISTCMD-1)) &&'
 alias git=hub
