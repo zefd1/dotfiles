@@ -44,7 +44,11 @@ set softtabstop=2                                            " insert mode tab a
 set tabstop=8                                                " actual tabs occupy 8 characters
 set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc
 set wildmenu                                                 " show a navigable menu for tab completion
+set splitright                                               " split nerdtree to the right
 set wildmode=longest,list,full
+
+au BufReadPost Jenkinsfile set syntax=groovy
+au BufReadPost Jenkinsfile set filetype=groovy
 
 " Enable basic mouse behavior such as resizing buffers.
 set mouse=a
