@@ -11,6 +11,10 @@ call vundle#begin()
   Plugin 'tpope/vim-surround'
   Plugin 'keith/rspec.vim'
   Plugin 'ekalinin/Dockerfile.vim'
+  Plugin 'vim-ruby/vim-ruby'
+  Plugin 'pangloss/vim-javascript'
+  Plugin 'mxw/vim-jsx'
+  Plugin 'jiangmiao/auto-pairs'
 call vundle#end()
 
 "Styling stuff
@@ -22,6 +26,7 @@ hi CursorLineNR ctermbg=234 ctermfg=255 guibg=#262626 guifg=white cterm=bold
 
 "Syntax
 set autoindent
+set smartindent
 set autoread                                                 " reload files when changed on disk, i.e. via `git checkout`
 set backspace=2                                              " Fix broken backspace in some setups
 set backupcopy=yes                                           " see :help crontab
@@ -72,5 +77,8 @@ set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 1
+let g:syntastic_javascript_checkers=['eslint']
+
+let g:jsx_ext_required = 0 " don't require jsx extension for syntax highlighting
