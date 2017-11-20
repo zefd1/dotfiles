@@ -4,6 +4,11 @@
 mkdir ~/workspace
 ```
 2. Install [homesick](https://github.com/technicalpickles/homesick).
+### Prerequisites
+* iTerm 2
+* [rbenv](https://github.com/rbenv/rbenv)
+
+1. Install [homesick](https://github.com/technicalpickles/homesick).
 ```
 gem install homesick
 ```

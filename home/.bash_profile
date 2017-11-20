@@ -12,12 +12,7 @@ source ~/.bashrc
 source ~/.bash_func
 source ~/.bash_aliases
 source ~/.bash_styles
-if [ -d ~/workspace/google-cloud-sdk ]; then
-  source ~/workspace/google-cloud-sdk/completion.bash.inc
-  source ~/workspace/google-cloud-sdk/path.bash.inc
-fi
 
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-
-# For now, just use personal AWS
-set-aws personal
+export GCLOUD_DNS_API=$(cat ~/.secrets/google-cloud-api)
+source ~/workspace/google-cloud-sdk/completion.bash.inc
+source ~/workspace/google-cloud-sdk/path.bash.inc
