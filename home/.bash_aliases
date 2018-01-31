@@ -23,6 +23,7 @@ alias brew_cleaner="brew update && brew upgrade brew-cask && brew cleanup && bre
 alias ws='cd ~/workspace'
 alias d='docker'
 alias curl='curl --silent'
+alias kc='kubectl'
 
 alias hideme='history -d $((HISTCMD-1)) &&'
 alias git=hub
